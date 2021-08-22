@@ -8,6 +8,35 @@ p{
     font-size: 1.1em;
 }
 
+body{
+    width: 600px;
+    margin: 0px auto;
+}
+
+
+#navBar {
+    height: 40px;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+#navBar h2{
+    padding-left: 20px;
+}
+
+#feed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
 .like {
     background-color: yellow;
     color: black;
@@ -17,16 +46,19 @@ p{
     border: 3px solid black;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .upper{
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    width: 90%;
 }
 
 .lower{
-    padding: 10px;
+    padding: 15px;
 }
 
 .left  {
@@ -45,4 +77,23 @@ p{
     box-shadow: 2px 2px 4px black;
     padding: 3px 8px;
     font-weight: bolder;
+}
+
+.profile{
+    height: fit-content;
+}
+
+.profile > *{
+    margin: 10px;
+}
+
+#profilePhoto {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.feedcontent {
+    max-width: 70%;
 }
