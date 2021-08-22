@@ -4,4 +4,4 @@ function increaseLike(element){
     likeNumber += 1
 
     element.previousElementSibling.firstElementChild.innerText = likeNumber;
-}
+} 
